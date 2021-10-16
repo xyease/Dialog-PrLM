@@ -23,7 +23,7 @@ Our code is based on  the Transformers repo: https://github.com/huggingface/tran
     
     gather_wikipretrain_data.py is to gather samples from each article to generate final pre-trainig datasets of the three tasks.
 
-* Our pre-training datasets are uploaded to
+* Our pre-training datasets are uploaded to https://jbox.sjtu.edu.cn/l/i1Jzrd
 ### Pre-training
 * Our pre-training code for English/Chinese & BERT/ELECTRA is in examples/wiki_pretrain
    
@@ -33,7 +33,10 @@ Our code is based on  the Transformers repo: https://github.com/huggingface/tran
     
     After pre-training, Dialog-BERT model will be saved in --output_dir.
 
+<!--
 * Our pre-trained Dialog-PrLM models are uploaded to
+-->
+
 ## Response selection task
 ### Dataset
 Please download datasets to the corresponding directory under "mydata"
@@ -56,8 +59,9 @@ https://www.dropbox.com/s/90t0qtji9ow20ca/DoubanConversaionCorpus.zip?dl=0&file_
     
     After fine-tuning, the model will be saved in --output_dir.
 
-* Our fine-tuned Dialog-PrLM models are uploaded to
-
+<!--
+* Our pre-trained Dialog-PrLM models are uploaded to
+-->
 ### Multi-task learning
 * Our multi-task learning code on PrLM/Dialog-PrLM is in examples/response_selection/RS_multitask
 
@@ -71,12 +75,14 @@ https://www.dropbox.com/s/90t0qtji9ow20ca/DoubanConversaionCorpus.zip?dl=0&file_
     
     The run_bert_RSmultitask_v2_baseline.py/run_bert_RSmultitask_v2_electra_baseline.py are for BERT/ELECTRA.
     
-* Our multi-task learning models on PrLM/Dialog-PrLM are uploaded to
+<!--
+* Our pre-trained Dialog-PrLM models are uploaded to
+-->
 ## Reference
  
 If you use this code please cite our paper:
 ```
-@article{xu2021topic,
+@article{xu2021dialog,
   title={Dialogue-oriented Pre-training},
   author={Xu, Yi and Zhao, Hai},
   journal={ACL2021 Findings},
