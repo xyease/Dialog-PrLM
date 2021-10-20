@@ -23,7 +23,7 @@ Our code is based on  the Transformers repo: https://github.com/huggingface/tran
     
     gather_wikipretrain_data.py is to gather samples from each article to generate final pre-trainig datasets of the three tasks.
 
-* Our pre-training datasets are uploaded to https://jbox.sjtu.edu.cn/l/i1Jzrd
+* Our pre-training datasets are uploaded to https://jbox.sjtu.edu.cn/l/SF24uF
 ### Pre-training
 * Our pre-training code for English/Chinese & BERT/ELECTRA is in examples/wiki_pretrain
    
