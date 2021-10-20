@@ -33,9 +33,7 @@ Our code is based on  the Transformers repo: https://github.com/huggingface/tran
     
     After pre-training, Dialog-BERT model will be saved in --output_dir.
 
-<!--
-* Our pre-trained Dialog-PrLM models are uploaded to
--->
+* Our pre-trained Dialog-PrLM models are uploaded to https://jbox.sjtu.edu.cn/l/H1nWPs
 
 ## Response selection task
 ### Dataset
