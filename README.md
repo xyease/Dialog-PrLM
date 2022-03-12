@@ -23,7 +23,7 @@ Our code is based on  the Transformers repo: https://github.com/huggingface/tran
     
     gather_wikipretrain_data.py is to gather samples from each article to generate final pre-trainig datasets of the three tasks.
 
-* Our pre-training datasets are uploaded to https://jbox.sjtu.edu.cn/l/SF24uF
+* Our pre-training datasets are uploaded to https://drive.google.com/drive/folders/1v8HYbE6A28GWT19lk6pC4xi0cgFraxc_?usp=sharing
 ### Pre-training
 * Our pre-training code for English/Chinese & BERT/ELECTRA is in examples/wiki_pretrain
    
@@ -33,8 +33,11 @@ Our code is based on  the Transformers repo: https://github.com/huggingface/tran
     
     After pre-training, Dialog-BERT model will be saved in --output_dir.
 
-* Our pre-trained Dialog-PrLM models are uploaded to https://jbox.sjtu.edu.cn/l/H1nWPs
-
+* Our pre-trained Dialog-PrLM models are uploaded to https://drive.google.com/drive/folders/1wGRQMjMXzhKEWqx1-Q_pCB746YglxMPX?usp=sharing, where
+    
+    Dialog-BERT(en) is in "wikipretrain_v3";  Dialog-BERT(zh) is in "zh_wikipretrain_v3";
+    Dialog-ELECTRA(en) is in "electra_base_wikipretrain_v3"; Dialog-ELECTRA(zh) is in "electra_base_zh_wikipretrain_v3"
+    
 ## Response selection task
 ### Dataset
 Please download datasets to the corresponding directory under "mydata"
@@ -80,7 +83,7 @@ https://www.dropbox.com/s/90t0qtji9ow20ca/DoubanConversaionCorpus.zip?dl=0&file_
  
 If you use this code please cite our paper:
 ```
-@article{xu2021dialog,
+@article{xu2021dialogue,
   title={Dialogue-oriented Pre-training},
   author={Xu, Yi and Zhao, Hai},
   journal={ACL2021 Findings},
